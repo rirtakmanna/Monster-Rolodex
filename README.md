@@ -4,6 +4,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9131ebdb-192b-4f6d-9c89-cbc489f4dde7/deploy-status)](https://app.netlify.com/sites/rm-monster-rolodex/deploys)
+
 <!-- PROJECT LOGO -->
 <br>
 <p align="center">
