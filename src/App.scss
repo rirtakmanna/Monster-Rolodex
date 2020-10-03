@@ -1,6 +1,13 @@
 @import "./sass/mixins";
 @import "./sass/variable";
 
-h1{
-  font-size: calc(10px + 2vmin);
+.app {
+  text-align: center;
+}
+
+.heading {
+  font-family: "Bigelow Rules", cursive;
+  font-size: 10rem;
+  color: $color-white;
+  padding-top: 2rem;
 }

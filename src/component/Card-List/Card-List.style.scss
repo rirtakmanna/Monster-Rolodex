@@ -1,0 +1,23 @@
+@import "./../../sass/mixins";
+@import "./../../sass/variable"; 
+
+.card-list {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+  @include respond(tab-prot) {
+    //700px to 900px max-width(59.375em)
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @include respond(phone-land) {
+    //400px to 700px max-width(43.75em)
+    grid-template-columns: 1fr 1fr;
+  }
+  @include respond(phone-prot) {
+    //0px to 400px max-width(28.125em)
+    grid-template-columns: 1fr;
+  }
+}
